@@ -1,0 +1,15 @@
+languages:
+  en:
+    name: English
+    whisper_code: en
+    tts_backend: xtts
+  ur:
+    name: Urdu
+    whisper_code: ur
+    tts_backend: mms
+    mms_model: facebook/mms-tts-urd
+  ar:
+    name: Arabic
+    whisper_code: ar
+    tts_backend: xtts
+  default: en

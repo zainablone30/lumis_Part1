@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Conda/venv
+venv/
+.venv/
+env/
+
+# Datasets (too large for git)
+datasets/
+*.zip
+
+# Trained models and checkpoints (too large for git)
+vision_emotion/checkpoints/
+*.pt
+*.pth
+*.onnx
+*.gguf
+llm_core/lumis-lora-adapter/
+llm_core/lumis-merged/
+llm_core/lumis-q4.gguf
+
+# ChromaDB memory store
+llm_core/chroma_store/
+chroma_store/
+
+# Databases
+*.db
+*.sqlite3
+
+# Audio/video test outputs
+*.wav
+*.mp3
+*.mp4
+
+# Environment variables / secrets
+.env
+*.key
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# 3D models (large binary files)
+avatar_3d/web/models/*.glb
+
+# llama.cpp (cloned separately)
+llama.cpp/

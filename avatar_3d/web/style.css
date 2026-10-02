@@ -1,0 +1,5 @@
+/* avatar_3d/web/style.css */
+body { margin: 0; background: black; overflow: hidden; }
+#controls { position: absolute; top: 10px; left: 10px; z-index: 10; }
+#scene-container { width: 100vw; height: 100vh; }
+.hologram-active #scene-container { background: black; }

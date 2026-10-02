@@ -1,0 +1,45 @@
+# Core
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.1
+python-dotenv==1.0.1
+sqlalchemy==2.0.30
+PyYAML==6.0.1
+
+# Vision / Emotion (RAF-DB)
+torch==2.3.0
+torchvision==0.18.0
+opencv-python==4.9.0.80
+mediapipe==0.10.14
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+matplotlib==3.9.0
+seaborn==0.13.2
+onnx==1.16.0
+onnxruntime==1.18.0
+
+# Voice emotion
+librosa==0.10.2
+soundfile==0.12.1
+
+# Speech
+git+https://github.com/openai/whisper.git
+pyaudio==0.2.14
+pvporcupine==3.0.2
+
+# LLM / RAG
+chromadb==0.5.0
+sentence-transformers==2.7.0
+requests==2.32.3
+transformers==4.41.2
+peft==0.11.1
+bitsandbytes==0.43.1
+accelerate==0.30.1
+datasets==2.19.1
+
+# Hardware bridge
+paho-mqtt==2.1.0
+
+# Frontend
+streamlit==1.35.0
